@@ -18,7 +18,7 @@ namespace EntityLayer.Concrete
         [StringLength(100)]
         public string AboutImage1 { get; set; }
         [StringLength(100)]
-        public int AboutImage2 { get; set; }
+        public string AboutImage2 { get; set; }
 
     }
 }
